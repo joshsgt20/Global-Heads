@@ -50,6 +50,17 @@ gsap.from("#Welcome h2", {
 });
 
 
+gsap.from("#Welcome a", {
+  delay: 3,
+  duration: 1,
+  y:20,
+  opacity: 0,
+  stagger: 0.2,
+  ease: "power4",
+
+});
+
+
 
 
 gsap.from("#Welcome span", {
@@ -62,6 +73,48 @@ gsap.from("#Welcome span", {
 
 });
 
+
+
+
+gsap.from("#YellowAnimation", {
+  duration: 2,
+  height: 0,
+  opacity: 0,
+  delay: 1,
+  ease: "power2",
+
+});
+
+
+gsap.from("#GreenAnimation", {
+  duration: 2,
+  height: 0,
+  opacity: 0,
+  delay: 2,
+  ease: "power2",
+
+});
+
+
+
+gsap.from("#BlueAnimation", {
+  duration: 2,
+  height: 0,
+  opacity: 0,
+  delay: 3,
+  ease: "power2",
+
+});
+
+
+
+gsap.from("#PinkAnimation", {
+  duration: 2,
+  height: 0,
+  opacity: 0,
+  delay: 4,
+  ease: "power2",
+});
 
 
 
