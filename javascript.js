@@ -40,7 +40,7 @@ gsap.from("#Logo", {
 
 
 gsap.from("#Welcome h2", {
-  delay: 2,
+  delay: 2.5,
   duration: 1,
   y:20,
   opacity: 0,
@@ -68,7 +68,7 @@ gsap.from("#Welcome span", {
   duration: 1,
   scale: 0.5,
   opacity: 0,
-  stagger: 0.4,
+  stagger: 0.5,
   ease: "power3",
 
 });
@@ -81,6 +81,8 @@ gsap.from("#YellowAnimation", {
   height: 0,
   opacity: 0,
   delay: 1,
+  x:10,
+  y: 10,
   ease: "power2",
 
 });
@@ -92,6 +94,8 @@ gsap.from("#GreenAnimation", {
   opacity: 0,
   delay: 2,
   ease: "power2",
+  x:10,
+  y: 10,
 
 });
 
@@ -103,7 +107,8 @@ gsap.from("#BlueAnimation", {
   opacity: 0,
   delay: 3,
   ease: "power2",
-
+  x:10,
+  y: 10,
 });
 
 
@@ -114,6 +119,8 @@ gsap.from("#PinkAnimation", {
   opacity: 0,
   delay: 4,
   ease: "power2",
+  x:10,
+  y: 10,
 });
 
 
