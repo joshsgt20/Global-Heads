@@ -226,6 +226,7 @@ color: #818181
   z-index: 0;
   object-fit: cover;
   margin: auto;
+  background-color: white;
 }
 
 #Mission2{
